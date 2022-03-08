@@ -44,11 +44,12 @@ main {
 h2 {
   font-size: 32px;
   margin: 24px 0 8px;
+  color: #915c3b;
 }
 
 h3 {
   font-size: 21px;
-  margin: 0 0 8px 0;
+  /* margin: 0 0 8px 0; */
   font-weight: 500;
 }
 
@@ -90,6 +91,32 @@ p {
   text-decoration: none; /* 沒有底線 */
 }
 
+.alpha_camp, .electric_ar, .graduation_project {
+  color: #c97136;
+  font-weight: 400;
+}
+
+.alpha_camp:hover {
+  /* 滑鼠移過時啟用這組設定 */
+  color: #ff6600;
+  font-weight: 600;
+  text-decoration: none; /* 沒有底線 */
+}
+
+.electric_ar:hover {
+  /* 滑鼠移過時啟用這組設定 */
+  color: #ff6600;
+  font-weight: 600;
+  text-decoration: none; /* 沒有底線 */
+}
+
+.graduation_project:hover {
+  /* 滑鼠移過時啟用這組設定 */
+  color: #ff6600;
+  font-weight: 600;
+  text-decoration: none; /* 沒有底線 */
+}
+
 .title {
   margin-bottom: 20px;
   text-align: center;
@@ -101,10 +128,20 @@ p {
 /* Skill Section */
 .skill-name,
 .job-title {
-  border-top: 1px solid #999999;
+  /* border-top: 1px solid #999999; */
   margin-top: 20px;
   padding-top: 20px;
 }
+
+/* .skill {
+  width: 100%;
+} */
+
+/* @media screen and (min-width: 576px) {
+  .skill-card {
+    width: 60%;
+  }
+} */
 
 .project-name {
   border-bottom: 1px solid #999999;
@@ -116,7 +153,7 @@ p {
 hr {
   border: 0px;
   height: 1px;
-  background: #cccccc;
+  background: #999999;
   margin: 20px 0;
 }
 
@@ -152,11 +189,11 @@ main {
 
 .project:hover {
   text-decoration: none;
-  color: #ff6600;
+  color: #eb7e35;
 }
 
 .project-card:hover {
-  background-color: #ff6600;
+  background-color: #eb7e35;
 }
 
 .card {
