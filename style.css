@@ -159,6 +159,22 @@ main {
   background-color: #ff6600;
 }
 
+.card {
+  width: 100%;
+}
+/* 
+@media screen and (min-width: 576px) {
+  .card {
+    height: 30vw;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    height: 20vw;
+  }
+} */
+
 /* @media screen and (min-width: 576px) {
   .personal-info {
     display: flex;
