@@ -143,7 +143,7 @@ p {
   }
 } */
 
-.project-name {
+.portfolio {
   border-bottom: 1px solid #999999;
   margin-bottom: 35px;
   padding-bottom: 25px;
@@ -187,9 +187,19 @@ main {
   color: #999999;
 }
 
-.project:hover {
-  text-decoration: none;
+.project-name:hover {
   color: #eb7e35;
+  
+}
+
+.project-github {
+  color: #999999;
+}
+
+.project-github:hover {
+  color: #eb7e35;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .project-card:hover {
